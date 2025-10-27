@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  font-weight: 400 600 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Inter";
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  text-align: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  width: 350px;
+  height: 550px;
+  border-radius: 12px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.image {
+  border-radius: 50%;
+  width: 75px;
+  height: auto;
+}
+
+.full-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.biography {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.social-link-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.social-link-container > a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.social-link-container > a:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
