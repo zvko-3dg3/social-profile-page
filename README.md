@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-social-profile-page-using-css-flexbox-J6hhoyP3h-)
 
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://zvko-3dg3.github.io/social-profile-page/)
 
 ## My process
 
